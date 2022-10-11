@@ -33,7 +33,7 @@ export default function Projects() {
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
-            <Url onPress={()=>Linking.openURL(item.url)}>URL: {item.url}</Url>
+            <Link href="" >{item.url}</Link>
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>

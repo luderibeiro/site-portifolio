@@ -11,19 +11,19 @@ export default function Contact() {
       <Content>
         <ItemContact 
           IconFa={FaLinkedin} 
-          LinkContact="https://www.linkedin.com/in/luderibeiro" 
+          LinkContact={<Link href="https://www.linkedin.com/in/luderibeiro"><a target="_blank">https://www.linkedin.com/in/luderibeiro</a></Link>} 
         />
         <ItemContact 
           IconFa={FaInstagram} 
-          LinkContact={<Link href="https://www.instagram.com/lude_ribeiro7"><a target="_blank">https://www.instagram.com/lude_ribeiro7</a></Link>}
+          LinkContact={<Link href="https://www.instagram.com/lude_ribeiro7"><a target="_blank" >https://www.instagram.com/lude_ribeiro7</a></Link>}
         />
         <ItemContact 
           IconFa={FaEnvelope} 
-          LinkContact="ludeyuridrums@gmail.com"
+          LinkContact={<Link href="mailto:ludeyuridrums@gmail.com"><a target={"blank"}>ludeyuridrums@gmail.com</a></Link>}
         />
         <ItemContact 
           IconFa={FaGithub}
-          LinkContact="https://github.com/luderibeiro"
+          LinkContact={<Link href="https://www.github.com/luderibeiro"><a target="_blank">https://www.github.com/luderibeiro</a></Link>}
         />
       </Content>
     </Container>

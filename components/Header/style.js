@@ -83,7 +83,7 @@ export const CloseSidebar = styled.div`
 `;
 
 export const ContentTitle = styled.div`
-  text-align: end;
+  text-align: begin;
 `;
 
 export const SubTitle = styled.span``;

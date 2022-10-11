@@ -17,7 +17,7 @@ export default function Home() {
         </Link>
       </Infos>
       <Logo>
-        <Img src="images/ReadyPlayerMe-Avatar1.jpeg" alt="logo" />
+        <Img src="images/avatar.jpg" alt="logo" />
       </Logo>
      </Content>
    </Container>
