@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, Linking } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at }
 from '../../../components/Projects/style'
 
@@ -33,7 +33,7 @@ export default function Projects() {
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
-            <Link href={item.url}><Url>URL: {item.url}</Url></Link>
+            <Url onPress={()=>Linking.openURL(item.url)}>URL: {item.url}</Url>
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>

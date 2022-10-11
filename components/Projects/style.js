@@ -50,6 +50,8 @@ export const Li = styled.li`
 
 export const TitleProject = styled.strong``;
 
-export const Url = styled.span``;
+export const Url = styled.span`
+  cursor: pointer;
+`;
 
 export const Created_at = styled.span``;

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { Item, Icon, Text } from './style'
 
@@ -8,7 +9,7 @@ export default function ItemContact({ IconFa, LinkContact }) {
         <IconFa />
       </Icon>
       <Text>
-        {LinkContact}
+          {LinkContact}
       </Text>
     </Item>
   )
