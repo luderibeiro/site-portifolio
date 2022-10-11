@@ -17,7 +17,8 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 30px;
+  font-size: 28px;
+  cursor: pointer;
 `;
 
 export const NavLinks = styled.nav`

@@ -18,11 +18,11 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
-            <Link href="/">
-                <Title>
-                Lude Ribeiro | DEV FullStack
-                </Title>
-            </Link>
+          <Link href="/">
+            <Title>
+              Lude Ribeiro | DEV FullStack
+            </Title>
+          </Link>
           <SubTitle>
             Portfolio Pessoal
           </SubTitle>
